@@ -278,7 +278,6 @@ invoke Init
 ;invoke GetDC, eax
 ;mov hdcHandle, eax
 
-
 again:
 X cmp x3,0 \ je endGame
 cmp x3,1390
@@ -310,8 +309,6 @@ invoke drd_processMessages
 invoke drd_flip
 
 jmp again
-
-
 
 ret
 
